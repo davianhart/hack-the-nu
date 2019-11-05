@@ -1,0 +1,312 @@
+html {
+
+    overflow-x: hidden;
+    width: 100vw;
+
+    background-image: url("pattern_bulb.jpg");
+    background-size: 128px;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+#card-group {
+
+    width: 800px;
+    height: 800px;
+    margin: 150px auto 0 auto;
+
+    border-radius: 32px;
+    transition: all 200ms ease-in;
+
+    background-image: linear-gradient(360deg, white 0%, #DEE9FC 100%);
+    overflow: hidden;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card-group:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card-group-img {
+
+    width: 800px;
+    height: 300px;
+
+    margin: 0;
+    padding: 0;
+
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+
+    vertical-align: middle;
+    object-fit: cover;
+
+}
+
+#card-group-title-container {
+
+    width: 800px;
+    height: 120px;
+
+    background-color: white;
+
+    margin: 5px 0 5px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card-group-title {
+
+    width: 800px;
+    height: 30px;
+
+    padding: 16px 0 0 16px;
+    margin: 0;
+    color: #111;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+
+    background-color: white;
+}
+
+#card-group-company {
+
+    width: 800px;
+    height: 20px;
+
+    margin: 0;
+    padding: 0 0 16px 16px;
+    color: #333;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    background-color: white;
+
+}
+
+#card-group-tags {
+    width: 800px;
+    height: 30px;
+
+    display: inline;
+    margin: 0 0 0 16px;
+    padding: 0;
+
+}
+
+.card-group-tag-style {
+    background-color: transparent;
+    border: solid 1px #6395F2;
+    color: #6395F2;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    display: inline-block;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 200ms ease-in;
+}
+
+.card-group-tag-style:hover {
+    background-color: #6395F2;
+    color: white;
+
+    transition: all 200ms ease-in;
+}
+
+#card-group-description-container {
+
+    width: 800px;
+    height: 250px;
+
+    background-color: white;
+    margin: 5px 0 5px 0;
+
+    overflow: hidden;
+    transition: all 200ms ease-in;
+    box-shadow: 0px 5px 10px -2px rgba(0,0,0,0.75);
+}
+
+#card-group-description {
+
+    width: 768px;
+    height: 130px;
+
+    font-family: monospace;
+    text-align: center;
+    font-size: 18px;
+
+    padding: 16px 16px;
+
+    white-space: nowrap;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+#footer {
+    width: 800px;
+    height: 120px;
+
+    background-color: white;
+    display: inline;
+
+    margin: 20px 0 ;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2), 0 -6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.read-more {
+    width: 800px;
+    height: 50px;
+
+    border: none;
+    border-top: solid 1px black;
+
+    background-color: white;
+    color: #6395F2;
+    font-weight: bold;
+    font-size: 16px;
+
+    margin-top: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+
+    transition: all 200ms ease-in;
+}
+
+#button-no {
+
+    width: 395px;
+    height: 120px;
+
+    display: inline-block;
+
+}
+
+#button-yes {
+
+    width: 395px;
+    height: 120px;
+
+    display: inline-block;
+}
+
+#header-group {
+
+    width: 100%;
+    height: 400px;
+
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: inline;
+
+    margin: 0;
+    padding: 16px 16px;
+
+    background-color: #686763;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#header-group-logo {
+
+     width: 96px;
+    height: 96px;
+
+    margin: 0px 16px 16px 32px;
+    object-fit: cover;
+
+}
+
+#header-group-title {
+
+    width: 300px;
+    height: 100px;
+
+    text-align: center;
+    display: inline;
+
+    margin: 32px 32px;
+
+
+}
+
+.buttons {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    background-color: transparent;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+}
+.buttons button {
+    width: 100%;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    border: none;
+}
+
+
+.yesbtn {
+    background-color: #9BD770;
+    border-color: #9BD770;
+    color: white;
+
+    transition: all 250ms ease-in;
+    opacity: 0.6;
+}
+
+.yesbtn:hover {
+    background-color: #9BD770;
+    border-color: #9BD770;
+    color: white;
+
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.nobtn {
+    background-color: #F37C84;
+    border-color: #F37C84;
+    color: white;
+
+    transition: all 250ms ease-in;
+    opacity: 0.6;
+}
+
+.nobtn:hover {
+    background-color: #F37C84;
+    border-color: #F37C84;
+    color: white;
+
+    opacity: 1;
+    cursor: pointer;
+}
+
+.description-data {
+    font-size: 22px;
+
+}

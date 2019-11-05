@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VSwipe</title>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+
+        <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="popup_effect.js"></script>
+        <link rel="stylesheet" type="text/css" href="popup_style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="header-group">
+        </div>
+
+
+        <div id="card-group">
+
+            <!-- Card Image-->
+            <img id="card-group-img" src="https://www.sparkontario.ca/sites/default/files/styles/opportunity_image/public/opportunity_images/13738286_10104542084024063_8026737829014380259_o_5.jpg?itok=8pzBPHhm">
+
+            <div id="card-group-title-container">
+                <!--Card title-->
+                <h1 id="card-group-title">Dance Marathon Ambassador</h1>
+
+                <!--Card Company-->
+                <h3 id="card-group-company">Children's Miracle Network</h3>
+                <!--Card Tags-->
+                <ul id="card-group-tags">
+                    <li class="card-group-tag-style">Accounting & Finance</li>
+                    <li class="card-group-tag-style">Event Planning & Participation</li>
+                </ul>
+            </div>
+
+            <div id="card-group-description-container">
+                <!--Card Description-->
+                <p id="card-group-description">
+                    Children's Miracle Network works with students at any high school, <br>
+                    college or university to host a Dance Marathon event at their school. <br>
+                    This is a 4-12 hour event that consists of students standing in <br>
+                    symbolic support of their local sick and injured children through <br>
+                    games, dancing, activities and entertainment. <br><br>
+                    We are looking for students to become Dance Marathon Ambassadors and bring this movement to their school! Students will work with
+                </p>
+
+                <button class="read-more" id="display_popup">Read More</button>
+            </div>
+            <!--Card Footer-->
+            <div id="footer">
+
+                <table class="buttons">
+                    <tr>
+                        <td><button type="button" class="nobtn">NO</button>
+                        <td><button type="button" class="yesbtn">YES</button>
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+
+        <center>
+            <div id="popup_box">
+                <input type="button" id="cancel_button" value="X">
+                <h1>Description</h1>
+                <p class="description-data" id="info_text">
+
+                </p>
+                <input type="button" id="close_button" value="Close">
+            </div>
+        </center>
+
+        <script src="script.js"></script>
+    </body>
+</html>

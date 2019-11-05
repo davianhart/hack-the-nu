@@ -1,0 +1,59 @@
+<div class="search-result-item">
+
+
+<div class="search-result-opportunity search-result-item-node">
+
+  <div class="search-result-item-node-image">
+
+              <div class="listing-item-opportunity-image">
+
+          <a href="/opp/volunteer-recruiter-15357">
+<img src="https://www.sparkontario.ca/sites/default/files/styles/opportunity_image/public/opportunity_images/haltonmississauga_hz_2clr-1_0.jpg?itok=E2qOQife" width="800" height="600" alt=""></a>        </div>
+        </div>
+
+
+Title & Company Name
+
+//*[@class="search-result-item"]/div/div[2]/h4/a
+
+  <div class="search-result-item-node-content">
+      <h4><a href="/opp/volunteer-recruiter-15357">Volunteer Recruiter</a></h4>
+      <h5><a href="/org/habitat-humanity-halton-mississauga-0">Habitat for Humanity-Halton-Mississauga</a></h5>
+
+
+
+      <!-- Tags -->
+      <div class="opportunity-tags">
+  <ul>
+    <li class="li-tag"><a><i>Tag</i></a></li>
+    <li><a href="/explore/tag/9">Administration &amp; Office Management</a></li><li><a href="/explore/tag/26">Leadership &amp; Management</a></li>  </ul>
+  <div class="clear-break"></div>
+</div>
+      <!-- / Tags -->
+
+      We are seeking volunteers to join us in recruiting local businesses to help our cause. This is a great opportunity for recent grads to gain valuable experience in the fields of Business, Recruiting &amp; Human Reso...  </div>
+
+  <div class="clear-break"></div>
+
+      <div class="opportunity-meta">
+      <ul>
+        <li class="li-meta-date">
+                      <i></i>&nbsp;
+            Ongoing                  </li>
+          <li class="li-meta-location">
+                        <i></i>&nbsp;
+            Burlington, ON (16.5 km away)          </li>
+      </ul>
+      <div class="clear-break"></div>
+    </div>
+  </div>
+    </div>
+
+
+Title
+ImageLocation
+Company
+OpurtunityTags
+Description
+Date
+Location
